@@ -24,7 +24,7 @@ while bandera == 'si':
         menu = input('''
         - Si desea anadir una factura escriba A
         - Si desea salir de la operacion escriba N
-        Desicion: ''')
+        Desicion: A''')
 
         if menu == 'N': bandera = 'no'
     
