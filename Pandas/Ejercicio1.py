@@ -14,4 +14,4 @@ for i in range(inicio, fin+1):
 ventas = pd.Series(ventas)
 
 print(f'Ventas del ano {inicio} a {fin} \n {ventas}')
-print(f'Ventas del ano con{inicio} a {fin} \n {ventas*.9}')
+print(f'Ventas del ano con descuento {inicio} a {fin} \n {ventas*.9}')
