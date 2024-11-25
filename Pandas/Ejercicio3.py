@@ -11,6 +11,6 @@ notas = {
 
 def ordenarMayorMenor(lista):
     lista = pd.Series(lista)
-    return lista.sort_values(ascending=False)
+    return lista.sort_values(ascending=False) # Ordena los valores de mayor a menor
 
 print(ordenarMayorMenor(notas))
